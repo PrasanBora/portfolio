@@ -34,9 +34,13 @@ nav,
 }
 
 nav {
-  justify-content: space-around;
+  justify-content: space-between ;
+
   align-items: center;
   height: 17vh;
+}
+nav div{
+    margin: 0 20px 0 30px;
 }
 
 .nav-links {
@@ -174,6 +178,11 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+img
+{
+    border-radius: 50%;
 }
 
 .section__text {
@@ -341,6 +350,7 @@ section {
   gap: 2.5rem;
   justify-content: space-around;
 }
+
 
 article {
   display: flex;
